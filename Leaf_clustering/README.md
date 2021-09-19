@@ -4,4 +4,6 @@ The objective of this tutorial is to build a tree leaf image clustering program 
 
 The dataset consists of approximately 1,584 leaf specimen images (16 samples of each of the 99 species) that have been converted to binary black leaves on a white background.
 
+[download data](https://www.kaggle.com/c/leaf-classification/data)
+
 I hope you enjoy reading :)
