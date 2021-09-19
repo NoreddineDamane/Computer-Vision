@@ -6,6 +6,5 @@ The dataset consists of approximately 1,584 leaf specimen images (16 samples of 
 
 [you can download data from](https://drive.google.com/file/d/1EjgZuxsygLlaZmmAxqHrjY4nyp8T9Odh/view?usp=sharing)
 
-dataset extracted from the Kaggle competition <leaf classification> dataset.
 
 I hope you enjoy reading :)
