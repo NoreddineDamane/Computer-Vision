@@ -1,7 +1,7 @@
 # Feature Extraction Using Hu Moments
 
 ## Introduction
-Hu a proposé les moments de Hu en 1962 \cite{hu1962visual}, qui sont principalement utilisés pour la reconnaissance des formes. En statistique mathématique, les moments sont utilisés pour décrire la distribution d'une variable aléatoire. Les moments de Hu sont un ensemble de 7 nombres calculés à l'aide de moments centraux invariants aux transformations d'image. Les 6 premiers moments se sont avérés être invariants à la translation, à l’échelle, à la rotation et à la réflexion. Alors que le signe du 7ème moment change pour la réflexion de l'image. De plus, ils présentent l'avantage d'une faible complexité de calcul. Les moments de hu sont obtenus comme suit .
+Hu a proposé les moments de Hu en 1962 [1](https://ieeexplore.ieee.org/abstract/document/1057692), qui sont principalement utilisés pour la reconnaissance des formes. En statistique mathématique, les moments sont utilisés pour décrire la distribution d'une variable aléatoire. Les moments de Hu sont un ensemble de 7 nombres calculés à l'aide de moments centraux invariants aux transformations d'image. Les 6 premiers moments se sont avérés être invariants à la translation, à l’échelle, à la rotation et à la réflexion. Alors que le signe du 7ème moment change pour la réflexion de l'image. De plus, ils présentent l'avantage d'une faible complexité de calcul. Les moments de hu sont obtenus comme suit .
 
 Moment brut d’ordre ![1](https://latex.codecogs.com/gif.latex?%5C%28p%20&plus;%20q%29%5C) est défini comme :
 
@@ -22,7 +22,7 @@ Les moments centraux ci-dessus sont invariants par translation.
 
 Afin de rendre les moments invariants à l'échelle nous avons besoin de moments centraux normalisés comme indiqué ci-dessous.
 
-![6](https://latex.codecogs.com/gif.latex?%5Ceta%28t%29_%7Bpq%7D%20%3D%20%5Cfrac%20%7B%5Cmu_%7Bp%20q%7D%7D%7B%5Cmu_%7B00%7D%5E%5Cgamma%7D) Où ![7](https://latex.codecogs.com/gif.latex?%5Cgamma%20%3D%5Cfrac%20%7B%28p&plus;q%29%7D%7B2%7D&plus;1%20%5Ctext%7B%20et%20%7D%20p&plus;q%20%5Cgeq%20%7B2%7D)
+          ![6](https://latex.codecogs.com/gif.latex?%5Ceta%28t%29_%7Bpq%7D%20%3D%20%5Cfrac%20%7B%5Cmu_%7Bp%20q%7D%7D%7B%5Cmu_%7B00%7D%5E%5Cgamma%7D)    Où     ![7](https://latex.codecogs.com/gif.latex?%5Cgamma%20%3D%5Cfrac%20%7B%28p&plus;q%29%7D%7B2%7D&plus;1%20%5Ctext%7B%20et%20%7D%20p&plus;q%20%5Cgeq%20%7B2%7D)
 
 
 
