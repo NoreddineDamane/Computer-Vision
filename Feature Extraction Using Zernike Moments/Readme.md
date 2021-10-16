@@ -2,11 +2,11 @@
 # Feature Extraction Using Zernike Moments
 
 ## Introduction :
-L’utilisation des moments de Zernike dans l’analyse d’images a été lancée par Teague [1] . Les moments de Zernike sont des entités extraites en projetant l’image d’entrée sur un ensemble complexe de polynômes de Zernike. 
-Le calcul des moments de Zernike à partir d’une image d’entrée comprend trois étapes : 
+L’utilisation des moments de Zernike dans l’analyse d’images a été lancée par Teague [[1]](https://www.osapublishing.org/josa/viewmedia.cfm?uri=josa-70-8-920&seq=0) . Les moments de Zernike sont des entités extraites en projetant l’image d’entrée sur un ensemble complexe de polynômes de Zernike.
+Le calcul des moments de Zernike à partir d’une image d’entrée comprend trois étapes :
 1.	Le calcul des polynômes radiaux
 2.	Le calcul des fonctions de base de Zernike 
-3.	Le calcul des moments de Zernike en projetant l’image sur les fonctions de base de Zernike [2].
+3.	Le calcul des moments de Zernike en projetant l’image sur les fonctions de base de Zernike [[2]](https://www.sciencedirect.com/science/article/abs/pii/S0888327009001228).
 
 ## Méthode et résultats :
 Les moments de Zernike ont fait l’objet de larges investigations et sont aussi toujours largement utilisés. Cette approche consiste à projeter l’image dans un espace vectoriel en utilisant un ensemble de polynômes orthogonaux (les polynômes de Zernike).
