@@ -20,4 +20,4 @@ Afin de tester le code, nous avons utilisé des images typiques présentant des 
 
 ![alt text](https://github.com/NoreddineDamane/Computer-Vision/blob/master/Feature%20Extraction%20Using%20Zernike%20Moments/output.png?raw=true)
 
-Comme les images de la première rangée ne sont que des versions tournées d'un seul objet (ovale), les amplitudes des moments de Zernike pour ces trois images sont les mêmes (invariance de rotation). De plus, les différences entre les phases des moments sont proportionnelles aux angles de rotation des images. Comme prévu, les moments de Zernike de deux formes différentes (par exemple ovale et rectangle) sont complètement différents. Cela signifie que l'algorithme fonctionne bien.
+Les dernières images ne sont que des versions tournées d'un seul objet (nuage), les amplitudes des moments de Zernike pour ces deux images sont les mêmes (invariance de rotation). De plus, les différences entre les phases des moments sont proportionnelles aux angles de rotation des images. Comme prévu, les moments de Zernike de deux formes différentes (par exemple ovale et rectangle) sont complètement différents. Cela signifie que l'algorithme fonctionne bien.
