@@ -11,11 +11,8 @@ Moment brut d’ordre ![1](https://latex.codecogs.com/gif.latex?%5C%28p%20&plus;
 ![2](https://latex.codecogs.com/gif.latex?m_%7Bp%20q%7D%20%3D%5Csum_%7Bx%7D%20%5Csum_%7By%7D%20x%5Ep%20y%5Eq%20I%28x%2Cy%29)
 
 
-Où, ![3](https://latex.codecogs.com/gif.latex?I%20%28x%2C%20y%29) est la valeur de gris de l'image,
+Où, ![3](https://latex.codecogs.com/gif.latex?I%20%28x%2C%20y%29) est la valeur de gris de l'image, ![](https://latex.codecogs.com/gif.latex?x) et ![](https://latex.codecogs.com/gif.latex?y) sont la coordonnée horizontale et la coordonnée verticale.
 
-
-
-![](https://latex.codecogs.com/gif.latex?x) et ![](https://latex.codecogs.com/gif.latex?y) sont la coordonnée horizontale et la coordonnée verticale.
 
 Et les moments centraux peuvent être décrits comme :
 
