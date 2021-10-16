@@ -13,7 +13,7 @@ Où, ![3](https://latex.codecogs.com/gif.latex?I%20%28x%2C%20y%29) est la valeur
 
 Et les moments centraux peuvent être décrits comme :
 
-(![image](https://user-images.githubusercontent.com/61553248/137593364-b7cd16ee-4a2d-402b-ac54-1e0037fb43ab.png)
+![4](https://latex.codecogs.com/gif.latex?%5Cmu_%7Bp%20q%7D%20%3D%20%5Csum_%7Bx%7D%20%5Csum_%7By%7D%20%28x-%5Cbar%20x%29%5Ep%20%28y-%5Cbar%20y%29%5Eq%20I%28x%2Cy%29)
 
 
 Avec:![5](https://latex.codecogs.com/gif.latex?%5Cbar%20x%20%3D%20%5Cfrac%20%7Bm_%7B10%7D%7D%7Bm_%7B00%7D%7D%20%5Ctext%7B%20et%20%7D%20%5Cbar%20y%20%3D%20%5Cfrac%20%7Bm_%7B01%7D%7D%7Bm_%7B00%7D%7D)
