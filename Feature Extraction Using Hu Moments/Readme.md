@@ -3,6 +3,8 @@
 Hu a proposé les moments de Hu en 1962 \cite{hu1962visual}, qui sont principalement utilisés pour la reconnaissance des formes. En statistique mathématique, les moments sont utilisés pour décrire la distribution d'une variable aléatoire. Les moments de Hu sont un ensemble de 7 nombres calculés à l'aide de moments centraux invariants aux transformations d'image. Les 6 premiers moments se sont avérés être invariants à la translation, à l’échelle, à la rotation et à la réflexion. Alors que le signe du 7ème moment change pour la réflexion de l'image. De plus, ils présentent l'avantage d'une faible complexité de calcul. Les moments de hu sont obtenus comme suit .\\
 \\
 
+$$M_{pq} = \sum_{x=0}^{N-1}\sum_{y=0}^{N-1}x^py^qI(x, y)$$
+
 Moment brut d’ordre \((p + q)\) est défini comme :
 
 \[m_{p q} =\sum_{x} \sum_{y} x^p y^q I(x,y)\]
