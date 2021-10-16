@@ -10,7 +10,11 @@ Le calcul des moments de Zernike à partir d’une image d’entrée comprend tr
 
 ## Méthode et résultats :
 Les moments de Zernike ont fait l’objet de larges investigations et sont aussi toujours largement utilisés. Cette approche consiste à projeter l’image dans un espace vectoriel en utilisant un ensemble de polynômes orthogonaux (les polynômes de Zernike).
+
+
 Pour calculer les moments de Zernike nous avons implémenté un algorithme sous python en s’appuyant sur un article [[3]](https://github.com/NoreddineDamane/Computer-Vision/blob/master/Feature%20Extraction%20Using%20Zernike%20Moments/images%2Bdoc/1-s2.0-S0031320306001166-main.pdf).
+
+
 Afin de tester le code, nous avons utilisé des images typiques présentant des formes (ovale, rectangle, nuage) et des versions pivotées de ces formes. La figure ci-dessous montre les résultats de l’application de l’algorithme sur ces images (Amplitude et phase pour ordre n=5 et répétition m=1).
 
 
