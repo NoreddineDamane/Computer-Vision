@@ -6,7 +6,7 @@ Hu a proposé les moments de Hu en 1962 [[1]](https://ieeexplore.ieee.org/abstra
 Les moments de Hu sont un ensemble de 7 nombres calculés à l'aide de moments centraux invariants aux transformations d'image. Les 6 premiers moments se sont avérés être invariants à la translation, à l’échelle, à la rotation et à la réflexion. Alors que le signe du 7ème moment change pour la réflexion de l'image. De plus, ils présentent l'avantage d'une faible complexité de calcul. Les moments de hu sont obtenus comme suit .
 
 Moment brut d’ordre ![1](https://latex.codecogs.com/gif.latex?%5C%28p%20&plus;%20q%29%5C) est défini comme :
-                      ![2](https://latex.codecogs.com/gif.latex?m_%7Bp%20q%7D%20%3D%5Csum_%7Bx%7D%20%5Csum_%7By%7D%20x%5Ep%20y%5Eq%20I%28x%2Cy%29)
+![2](https://latex.codecogs.com/gif.latex?m_%7Bp%20q%7D%20%3D%5Csum_%7Bx%7D%20%5Csum_%7By%7D%20x%5Ep%20y%5Eq%20I%28x%2Cy%29)
 
 
 Où, ![3](https://latex.codecogs.com/gif.latex?I%20%28x%2C%20y%29) est la valeur de gris de l'image,
