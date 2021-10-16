@@ -4,7 +4,7 @@ Hu a proposé les moments de Hu en 1962 \cite{hu1962visual}, qui sont principale
 \\
 
 
-Moment brut d’ordre [1](https://latex.codecogs.com/gif.latex?%5C%28%28p%20&plus;%20q%29%5C%29) est défini comme :
+Moment brut d’ordre ![1](https://latex.codecogs.com/gif.latex?%5C%28%28p%20&plus;%20q%29%5C%29) est défini comme :
 
 \[m_{p q} =\sum_{x} \sum_{y} x^p y^q I(x,y)\]
 
