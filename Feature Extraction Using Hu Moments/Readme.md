@@ -13,8 +13,7 @@ Où, ![3](https://latex.codecogs.com/gif.latex?I%20%28x%2C%20y%29) est la valeur
 
 Et les moments centraux peuvent être décrits comme :
 
-
-![4](![image](https://user-images.githubusercontent.com/61553248/137593364-b7cd16ee-4a2d-402b-ac54-1e0037fb43ab.png)
+(![image](https://user-images.githubusercontent.com/61553248/137593364-b7cd16ee-4a2d-402b-ac54-1e0037fb43ab.png)
 
 
 Avec:![5](https://latex.codecogs.com/gif.latex?%5Cbar%20x%20%3D%20%5Cfrac%20%7Bm_%7B10%7D%7D%7Bm_%7B00%7D%7D%20%5Ctext%7B%20et%20%7D%20%5Cbar%20y%20%3D%20%5Cfrac%20%7Bm_%7B01%7D%7D%7Bm_%7B00%7D%7D)
