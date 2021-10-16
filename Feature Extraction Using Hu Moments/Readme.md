@@ -22,7 +22,8 @@ Les moments centraux ci-dessus sont invariants par translation.
 
 Afin de rendre les moments invariants à l'échelle nous avons besoin de moments centraux normalisés comme indiqué ci-dessous.
 
-          ![6](https://latex.codecogs.com/gif.latex?%5Ceta%28t%29_%7Bpq%7D%20%3D%20%5Cfrac%20%7B%5Cmu_%7Bp%20q%7D%7D%7B%5Cmu_%7B00%7D%5E%5Cgamma%7D)    Où     ![7](https://latex.codecogs.com/gif.latex?%5Cgamma%20%3D%5Cfrac%20%7B%28p&plus;q%29%7D%7B2%7D&plus;1%20%5Ctext%7B%20et%20%7D%20p&plus;q%20%5Cgeq%20%7B2%7D)
+![6](https://latex.codecogs.com/gif.latex?%5Ceta%28t%29_%7Bpq%7D%20%3D%20%5Cfrac%20%7B%5Cmu_%7Bp%20q%7D%7D%7B%5Cmu_%7B00%7D%5E%5Cgamma%7D)
+Où     ![7](https://latex.codecogs.com/gif.latex?%5Cgamma%20%3D%5Cfrac%20%7B%28p&plus;q%29%7D%7B2%7D&plus;1%20%5Ctext%7B%20et%20%7D%20p&plus;q%20%5Cgeq%20%7B2%7D)
 
 
 
