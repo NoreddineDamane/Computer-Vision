@@ -3,6 +3,7 @@
 ## Introduction
 Hu a proposé les moments de Hu en 1962 [[1]](https://ieeexplore.ieee.org/abstract/document/1057692), qui sont principalement utilisés pour la reconnaissance des formes. En statistique mathématique, les moments sont utilisés pour décrire la distribution d'une variable aléatoire.
 
+# Methode
 Les moments de Hu sont un ensemble de 7 nombres calculés à l'aide de moments centraux invariants aux transformations d'image. Les 6 premiers moments se sont avérés être invariants à la translation, à l’échelle, à la rotation et à la réflexion. Alors que le signe du 7ème moment change pour la réflexion de l'image. De plus, ils présentent l'avantage d'une faible complexité de calcul. Les moments de hu sont obtenus comme suit .
 
 Moment brut d’ordre ![1](https://latex.codecogs.com/gif.latex?%5C%28p%20&plus;%20q%29%5C) est défini comme :
@@ -56,5 +57,10 @@ Où     ![7](https://latex.codecogs.com/gif.latex?%5Cgamma%20%3D%5Cfrac%20%7B%28
 
 ![](https://latex.codecogs.com/gif.latex?h_6%20%3D%20%283%5Ceta_%7B21%7D%20-%20%5Ceta_%7B03%7D%29%20%28%5Ceta_%7B30%7D%20&plus;%5Ceta_%7B12%7D%29%20%5B%28%5Ceta_%7B30%7D%20&plus;%20%5Ceta_%7B12%7D%29%5E2%20-%203%28%5Ceta_%7B21%7D%20&plus;%20%5Ceta_%7B03%7D%29%5E2%20%5D%20&plus;%20%28%5Ceta_%7B30%7D%20-%203%5Ceta_%7B12%7D%29%20%28%5Ceta_%7B21%7D%20-%20%5Ceta_%7B03%7D%29%20%5B3%28%5Ceta_%7B30%7D%20&plus;%20%5Ceta_%7B12%7D%29%5E2%20-%20%28%5Ceta_%7B21%7D%20&plus;%20%5Ceta_%7B03%7D%29%5E2%20%5D)
 
+# Resultats
+Afin de tester le code, nous avons utilisé des images typiques présentant des formes (ovale, rectangle, nuage) et des versions pivotées de ces formes. La figure ci-dessous montre les résultats de l’application de l’algorithme sur ces images (Amplitude et phase pour ordre n=5 et répétition m=1).
 
 ![](https://github.com/NoreddineDamane/Computer-Vision/blob/master/Feature%20Extraction%20Using%20Hu%20Moments/output.png)
+
+
+Les images de la première rangée ne sont que des versions pivotées de la forme ovale. hu6 (6éme invariant de hu) pour ces images est les mêmes et comme prévu, les moments hu de deux formes différentes sont différents.
