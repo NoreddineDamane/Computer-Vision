@@ -58,7 +58,7 @@ Où     ![7](https://latex.codecogs.com/gif.latex?%5Cgamma%20%3D%5Cfrac%20%7B%28
 ![](https://latex.codecogs.com/gif.latex?h_6%20%3D%20%283%5Ceta_%7B21%7D%20-%20%5Ceta_%7B03%7D%29%20%28%5Ceta_%7B30%7D%20&plus;%5Ceta_%7B12%7D%29%20%5B%28%5Ceta_%7B30%7D%20&plus;%20%5Ceta_%7B12%7D%29%5E2%20-%203%28%5Ceta_%7B21%7D%20&plus;%20%5Ceta_%7B03%7D%29%5E2%20%5D%20&plus;%20%28%5Ceta_%7B30%7D%20-%203%5Ceta_%7B12%7D%29%20%28%5Ceta_%7B21%7D%20-%20%5Ceta_%7B03%7D%29%20%5B3%28%5Ceta_%7B30%7D%20&plus;%20%5Ceta_%7B12%7D%29%5E2%20-%20%28%5Ceta_%7B21%7D%20&plus;%20%5Ceta_%7B03%7D%29%5E2%20%5D)
 
 # Résultats
-Afin de tester le code, nous avons utilisé des images typiques présentant des formes (ovale, rectangle, nuage) et des versions pivotées de ces formes. La figure ci-dessous montre les résultats de l’application de l’algorithme sur ces images (Amplitude et phase pour ordre n=5 et répétition m=1).
+Afin de tester le code, nous avons utilisé des images typiques présentant des formes (ovale, rectangle, nuage) [[2]](https://github.com/NoreddineDamane/Computer-Vision/tree/master/Feature%20Extraction%20Using%20Zernike%20Moments/images%2Bdoc/Test%20images) et des versions pivotées de ces formes. La figure ci-dessous montre les résultats de l’application de l’algorithme sur ces images.
 
 ![](https://github.com/NoreddineDamane/Computer-Vision/blob/master/Feature%20Extraction%20Using%20Hu%20Moments/output.png)
 
