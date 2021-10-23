@@ -30,8 +30,6 @@ zer_m = []
 for c, idx in classes.items():
     class_folder = img_path + "{}/".format(c)
     for f in os.listdir(class_folder):
-        k+=1
-        
         fpath = class_folder + f
         sample = int(f.replace(".png", ""))
         img = cv.imread(fpath, cv.IMREAD_GRAYSCALE)
@@ -44,9 +42,7 @@ for c, idx in classes.items():
         A_Z_m = np.array(A_Z_m)
         A_Z_m = [idx] + A_Z_m.reshape((1, 20)).tolist()[0]
         zer_m.append(A_Z_m)
-
 ```
-
 
 ![](https://github.com/NoreddineDamane/Computer-Vision/blob/master/Image%20classification%20using%20ensemble%20algorithms%20and%20zernike%20moments/Feature.PNG)
 
