@@ -53,6 +53,28 @@ for c, idx in classes.items():
 
 ## Classification using ensemble algorithms
 
+```python
+classifiers = {
+	"Decision Tree" : DT(),
+	"Bagging"       : BG(),
+	"Random Forest" : RDF()
+	}
+
+
+	for i in range(rounds):
+		X_train, X_test, y_train, y_test = data_split(X, y, test_size=0.3)
+		
+		for name, classifier in classifiers.items():
+			scaler = StandardScaler()
+			scaler.fit(X_train)
+			X_train = scaler.transform(X_train)
+			X_test = scaler.transform(X_test)
+			
+			classifier.fit(X_train, y_train)
+			score = classifier.score(X_test, y_test)
+			result[name]["score"].append(score)
+
+```
 ### Decision tree
 ### Bagging
 ### Random forest
