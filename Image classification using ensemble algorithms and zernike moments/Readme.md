@@ -17,3 +17,9 @@ Compute the Zernike moments for an order and repetition (n, m): ["(0, 0)", "(1, 
 
 ![](https://github.com/NoreddineDamane/Computer-Vision/blob/master/Image%20classification%20using%20ensemble%20algorithms%20and%20zernike%20moments/Feature.PNG)
 
+
+## Classification using ensemble algorithms
+
+### Decision tree
+## Bagging
+## Random forest
