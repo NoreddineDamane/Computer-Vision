@@ -21,5 +21,5 @@ Compute the Zernike moments for an order and repetition (n, m): ["(0, 0)", "(1, 
 ## Classification using ensemble algorithms
 
 ### Decision tree
-## Bagging
-## Random forest
+### Bagging
+### Random forest
