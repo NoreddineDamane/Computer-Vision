@@ -13,4 +13,10 @@ To illustrate the use of zernike moments in shape recognition, we will use the F
 ![](https://github.com/NoreddineDamane/Computer-Vision/blob/master/Image%20classification%20using%20ensemble%20algorithms%20and%20zernike%20moments/four%20shapes.PNG)
 
 ## Feature extraction
-
+```
+### Compute the Zernike moments for an order and repetition (n, m)
+[(n, m) : "(0, 0)", "(1, 1)", "(2, 0)", "(2, 2)", "(3, 1)",
+        "(3, 3)", "(4, 0)", "(4, 2)", "(4, 4)", "(5, 1)", "(5, 3)",
+        "(5, 5)", "(6, 0)", "(6, 2)", "(6, 4)", "(6, 6)" ,"(7, 1)",
+        "(7, 3)", "(7, 5)", "(7, 7)"]
+```
