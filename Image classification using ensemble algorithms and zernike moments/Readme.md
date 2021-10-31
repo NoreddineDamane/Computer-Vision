@@ -69,13 +69,12 @@ for i in range(rounds):
 ### Decision tree
 The decision tree algorithm is known by its modern name CART "Classification and Regression Trees", and it is used for classification and regression problems. A decision tree is a simple structure where non-terminal nodes represent tests on one or more attributes and terminal nodes reflect the results of the decision. The ordinary tree consists of a root, branches, nodes (places where branches are split) and leaves. The first node is a root. The end of the chain "root - branch - node - ... - node" is called a "leaf".
 
-![](https://github.com/NoreddineDamane/Computer-Vision/blob/master/Image%20classification%20using%20ensemble%20algorithms%20and%20zernike%20moments/cap/1.png)
-	decision tree [2](https://www.packtpub.com/product/mastering-machine-learning-for-penetration-testing/9781788997409)
 
 <p align="center">
   <img src="https://github.com/NoreddineDamane/Computer-Vision/blob/master/Image%20classification%20using%20ensemble%20algorithms%20and%20zernike%20moments/cap/1.png" width="350" title="decision treet">
 </p>
-[2](https://www.packtpub.com/product/mastering-machine-learning-for-penetration-testing/9781788997409)
+
+decision treet [2](https://www.packtpub.com/product/mastering-machine-learning-for-penetration-testing/9781788997409)
 
 
 ### Bagging
