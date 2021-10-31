@@ -75,7 +75,7 @@ The decision tree algorithm is known by its modern name CART "Classification and
 </p>
 
 decision treet [2](https://www.packtpub.com/product/mastering-machine-learning-for-penetration-testing/9781788997409)
-![alt-text-1]("https://github.com/NoreddineDamane/Computer-Vision/blob/master/Image%20classification%20using%20ensemble%20algorithms%20and%20zernike%20moments/cap/1.png" "decision treet") ![alt-text-2](image2.png "title-2")
+![alt-text-1]("https://github.com/NoreddineDamane/Computer-Vision/blob/master/Image%20classification%20using%20ensemble%20algorithms%20and%20zernike%20moments/cap/1.png" "decision treet"))
 
 ### Bagging
 ### Random forest
