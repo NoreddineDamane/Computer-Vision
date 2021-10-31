@@ -84,9 +84,24 @@ The ID3 (Iterative Dichotomizer) decision tree algorithm uses entropy to calcula
 Ensemble learning is a technique used to aggregate individual learning algorithms, known as baseline predictors, to produce a potentially superior predictor. Basically, ensemble learning can be classified into two groups based on their learning concept: parallel ensemble and sequential ensemble.
 ### Parallel methods
 The parallel set trains the base predictors in parallel to utilize the independence features between them. The base predictors can be different learning algorithms (i.e., a heterogeneous set) or a single learning algorithm (i.e., a homogeneous set). Parallel methods primarily use decision trees, which are small decision trees in general. Among the most robust algorithms of parallel methods is Bagging.
+
+
+#### Bagging
+Bagging, or bootstrap aggregating, is a classical technique for creating an ensemble proposed by Breiman, however, it can be used in regression and classification problems. It is characterized by the creation of multiple samples, with readjustment using the bootstrap technique, i.e., randomly sampling on the training set to produce several training subsets, then training each training subset to give rise to an aggregated model. The final prediction result is obtained by averaging in the case of regression or voting in the case of classification.
+Bagging has the advantage of allowing many weak learners to combine their efforts to outperform a single strong learner. It also reduces variance for algorithms that have high variance such as decision trees, eliminating model overfitting in the procedure.
+When using the bagging technique, the trees constructed may have similar characteristics, implying a lack of diversity. One way to circumvent this problem is to use Random-Forest, which can be understood as modeling using bagging with a random selection of attributes to compose each decision tree. This method, combined with the selection of the best set of features explaining the data.
 <p align="center">
   <img src="https://github.com/NoreddineDamane/Computer-Vision/blob/master/Image%20classification%20using%20ensemble%20algorithms%20and%20zernike%20moments/cap/2.png" width="350" title="bagging">
-</p>    Bagging [3](https://www.packtpub.com/product/mastering-machine-learning-for-penetration-testing/9781788997409)
+</p> Graph illustrating how parallel ensemble learning works [2](https://www.packtpub.com/product/mastering-machine-learning-for-penetration-testing/9781788997409)
 
-### Bagging
-### Random forest
+
+#### Random Forest
+
+Random Forest proposed by Breiman is considered one of the most popular ensemble methods.
+The RF model uses an ensemble of decision trees and two processes, bagging and random selection of attributes (variables) for each decision tree, to provide more accurate results and make the model more resistant to overfitting. This machine learning algorithm has become popular due to the simplicity of the learning and tuning parameters, the ability to fit nonlinear models, and the production of excellent classification results. It has been widely used in classification research, prediction, feature selection and outlier detection. In general, the main objective of this approach is to improve the performance of classification trees by reducing their variance.
+
+### Sequential methods
+Sequential ensemble, also known as boosting, trains the base predictors sequentially, with each newly added predictor attempting to correct its predecessor. The predictor focuses more on errors to improve prediction accuracy.
+<p align="center">
+  <img src="https://github.com/NoreddineDamane/Computer-Vision/blob/master/Image%20classification%20using%20ensemble%20algorithms%20and%20zernike%20moments/cap/3.png" width="350" title="bagging">
+</p> Flowchart of the sequential set where each model corrects the errors of its predecessor [2](https://www.packtpub.com/product/mastering-machine-learning-for-penetration-testing/9781788997409)
