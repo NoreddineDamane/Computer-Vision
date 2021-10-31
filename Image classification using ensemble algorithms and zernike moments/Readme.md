@@ -67,5 +67,9 @@ for i in range(rounds):
 		result[name]["score"].append(score)
 ```
 ### Decision tree
+The decision tree algorithm is known by its modern name CART "Classification and Regression Trees", and it is used for classification and regression problems. A decision tree is a simple structure where non-terminal nodes represent tests on one or more attributes and terminal nodes reflect the results of the decision. The ordinary tree consists of a root, branches, nodes (places where branches are split) and leaves. The first node is a root. The end of the chain "root - branch - node - ... - node" is called a "leaf".
+
+[](https://github.com/NoreddineDamane/Computer-Vision/blob/master/Image%20classification%20using%20ensemble%20algorithms%20and%20zernike%20moments/cap/1.png)
+
 ### Bagging
 ### Random forest
