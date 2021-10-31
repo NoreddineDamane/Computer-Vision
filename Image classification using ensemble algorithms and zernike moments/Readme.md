@@ -105,3 +105,12 @@ Sequential ensemble, also known as boosting, trains the base predictors sequenti
 <p align="center">
   <img src="https://github.com/NoreddineDamane/Computer-Vision/blob/master/Image%20classification%20using%20ensemble%20algorithms%20and%20zernike%20moments/cap/3.png" width="350" title="bagging">
 </p> Flowchart of the sequential set where each model corrects the errors of its predecessor [2](https://www.packtpub.com/product/mastering-machine-learning-for-penetration-testing/9781788997409)
+
+#### Boosting
+Boosting is a technique used to solve classification and regression problems, which combines a set of models (decision trees), whose individual performances can be considered as poor, while when the individual predictions are aggregated, a high accuracy model is obtained. The focus of this approach is on bias reduction, i.e. improving the ability of the model to fit the data. Several machine learning models have been proposed with this idea in mind, using decision trees with individual learners. We highlight Adaptive Boost (AB) and gradient boosting (GB).
+
+#### Adaptive Boost
+The Adaptive Boost algorithm is one of the best known algorithms for creating an ensemble classifier. The algorithm generates a strong classifier from several weak classifiers, in which a new predictor attempts to correct its predecessor by adding more weight to the errors. One of the reasons why the Adaptive Boost algorithm performs well is the diversity among the weak classifiers.
+
+#### Gradient boosting
+Gradient boosting is the combination of Adaptive Boost and weighted minimization, in which the residual errors made by the previous predictor are passed on to the new predictor. The objective of Gradient boosting is to minimize the loss of a model by sequentially adding new baseline predictors using a gradient descent type procedure. The three main components of Gradient boosting are the loss function, the weak learner and the additive model.
