@@ -47,7 +47,7 @@ for c, idx in classes.items():
 ![](https://github.com/NoreddineDamane/Computer-Vision/blob/master/Image%20classification%20using%20ensemble%20algorithms%20and%20zernike%20moments/Feature.PNG)
 
 
-## Classification using ensemble algorithms
+## Classification
 
 ```python
 classifiers = {
@@ -73,6 +73,20 @@ The decision tree algorithm is known by its modern name CART "Classification and
 <p align="center">
   <img src="https://github.com/NoreddineDamane/Computer-Vision/blob/master/Image%20classification%20using%20ensemble%20algorithms%20and%20zernike%20moments/cap/1.png" width="350" title="decision treet">
 </p>    decision treet [2](https://www.packtpub.com/product/mastering-machine-learning-for-penetration-testing/9781788997409)
+
+
+The principal challenge in implementing the decision tree is to identify the attributes that we consider to be the root node at each level. This process is known as attribute selection. Information Gain is one method of attribute selection.
+
+#### Information gain
+The ID3 (Iterative Dichotomizer) decision tree algorithm uses entropy to calculate the information gain. We calculate the information gain to estimate the information that each attribute contains.  Using the information gain as a criterion, we try to estimate the information that each attribute contains. The information gain is the entropy reduction, it calculates the difference between the entropy before the division and the average entropy after the division of the data set based on the values of the attributes. The attribute with the highest information gain is chosen as the splitting attribute at the node level.
+
+### Ensemble methods
+Ensemble learning is a technique used to aggregate individual learning algorithms, known as baseline predictors, to produce a potentially superior predictor. Basically, ensemble learning can be classified into two groups based on their learning concept: parallel ensemble and sequential ensemble.
+### Parallel methods
+The parallel set trains the base predictors in parallel to utilize the independence features between them. The base predictors can be different learning algorithms (i.e., a heterogeneous set) or a single learning algorithm (i.e., a homogeneous set). Parallel methods primarily use decision trees, which are small decision trees in general. Among the most robust algorithms of parallel methods is Bagging.
+<p align="center">
+  <img src="https://github.com/NoreddineDamane/Computer-Vision/blob/master/Image%20classification%20using%20ensemble%20algorithms%20and%20zernike%20moments/cap/2.png" width="350" title="bagging">
+</p>    Bagging [3](https://www.packtpub.com/product/mastering-machine-learning-for-penetration-testing/9781788997409)
 
 ### Bagging
 ### Random forest
